@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.0.0 (2021-10-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* no longer returns 2, but 3
+
+### Features
+
+* change return value ([2e1f678](https://github.com/peteyycz/release-talk-nodebp/commit/2e1f678630e23a5d3c178cbd8bee0dfa784a8a1e))
+
 ## 2.0.0 (2021-10-13)
 
 
