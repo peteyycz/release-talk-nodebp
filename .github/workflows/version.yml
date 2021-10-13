@@ -25,9 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Run a one-line script
         run: npm run version
-      
+
       - name: Push
         run: git push && git push --tags
