@@ -1,0 +1,25 @@
+{
+  "name": "release-talk-nodebp",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/peteyycz/release-talk-nodebp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peteyycz/release-talk-nodebp/issues"
+  },
+  "homepage": "https://github.com/peteyycz/release-talk-nodebp#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2",
+    "standard-version": "^9.3.1"
+  }
+}
