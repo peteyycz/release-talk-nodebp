@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.0.0 (2021-10-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* no longer 1 but 2
+
+### Features
+
+* change return value ([0118845](https://github.com/peteyycz/release-talk-nodebp/commit/011884577a510755cc76eddd6eef1c3432245df6))
+
 ### [1.1.18](https://github.com/peteyycz/release-talk-nodebp/compare/v1.1.17...v1.1.18) (2021-10-13)
 
 ### 1.1.17 (2021-10-13)
