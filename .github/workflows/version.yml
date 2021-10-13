@@ -29,6 +29,9 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Install
+        run: npm ci
+
       - name: Run a one-line script
         run: npm run version
 
