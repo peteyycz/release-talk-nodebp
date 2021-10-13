@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "commit": "cz",
     "test": "mocha ./src/**.spec.js",
     "version": "scripts/standard-version"
   },
@@ -20,7 +21,14 @@
   "homepage": "https://github.com/peteyycz/release-talk-nodebp#readme",
   "devDependencies": {
     "chai": "^4.3.4",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "mocha": "^9.1.2",
     "standard-version": "^9.3.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
